@@ -1,0 +1,49 @@
+# Diretórios de compilação e pacotes temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Diretórios e arquivos de dependências
+venv/
+env/
+myenv/
+*.egg-info/
+
+# Arquivos de configuração do ambiente
+*.env
+*.venv
+
+# Arquivos de build do PyInstaller
+dist/
+build/
+*.spec
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários e de logs
+*.log
+*.tmp
+*.bak
+
+# Diretórios e arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de segurança e credenciais
+*.key
+*.pem
+*.crt
+
+# Arquivos de saída e resultados da aplicação
+output/
+resultados/
